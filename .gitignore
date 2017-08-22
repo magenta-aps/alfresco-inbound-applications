@@ -1,0 +1,11 @@
+.idea/
+alf_data_dev/
+alfresco.log
+debug.bat
+debug.sh
+inbound-applications.iml
+pom.xml
+run.bat
+run.sh
+solr.log
+target/
