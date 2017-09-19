@@ -42,7 +42,6 @@ public class MagentaEmailMessageHandler extends FolderEmailMessageHandler {
 
         if (n == null) {
             n = (fileFolderService.create(root, applicants_filename, ContentModel.TYPE_CONTENT)).getNodeRef();
-            System.out.println("hvad blev n:" + n);
 
             JSONObject tmp = new JSONObject();
             JSONArray tmpArray =  new JSONArray();
@@ -79,10 +78,6 @@ public class MagentaEmailMessageHandler extends FolderEmailMessageHandler {
         catch (ParseException pex) {
             pex.printStackTrace();
         }
-
-        EmailMessagePart[] attachments = emailMessage.getAttachments();
-
-
 
         String subject = emailMessage.getSubject();
 
