@@ -63,8 +63,6 @@ public class MagentaEmailMessageHandler extends FolderEmailMessageHandler {
         jsonArray.add(email);
         j.put("email", jsonArray);
 
-        System.out.println("the new:" + j.toString());
-
         super.getNodeService().setProperty(n,property,j.toString());
     }
 
