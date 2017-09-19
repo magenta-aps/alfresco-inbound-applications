@@ -38,4 +38,9 @@
     </bean>
 
 
+    <!--<bean id="folderEmailMessageHandler" class="MagentaEmailMessageHandler" parent="emailMessageHandlerBase" />-->
+
+    <!--<bean id="documentEmailMessageHandler"  class="MagentaEmailMessageHandler" parent="emailMessageHandlerBase"/>-->
+
+
 </beans>

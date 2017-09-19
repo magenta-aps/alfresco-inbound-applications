@@ -9,3 +9,5 @@ run.bat
 run.sh
 solr.log
 target/
+alfresco.log*
+solr.log*
